@@ -1,0 +1,89 @@
+## ==========================================
+## 1. Visual Studio (IDE)
+## ==========================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+## ==========================================
+## 2. Visual Studio Code (Editor)
+## ==========================================
+# Bỏ qua toàn bộ cấu hình cá nhân của VS Code
+.vscode/
+
+# Nếu muốn giữ lại cấu hình chạy debug hoặc gợi ý extension cho cả team,
+# hãy bỏ dấu '#' ở 2 dòng dưới đây:
+#!.vscode/launch.json
+#!.vscode/extensions.json
+
+## ==========================================
+## 3. Build & Compiler Outputs (.NET / C# / C++)
+## ==========================================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]uild/
+
+# File thực thi và thư viện động sinh ra khi biên dịch
+*.exe
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.aps
+
+## ==========================================
+## 4. NuGet & Dependencies
+## ==========================================
+*.nupkg
+packages/
+!packages/build/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## ==========================================
+## 5. Test Results & Code Coverage
+## ==========================================
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+## ==========================================
+## 6. Environment & Secret Keys (Bảo mật)
+## ==========================================
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+
+## ==========================================
+## 7. OS & System Junk Files
+## ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
