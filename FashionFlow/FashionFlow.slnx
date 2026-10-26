@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FashionFlow/FashionFlow.csproj" />
+  <Project Path="FashionFlow.BLL/FashionFlow.BLL.csproj" />
+  <Project Path="FashionFlow.DAL/FashionFlow.DAL.csproj" />
+</Solution>
